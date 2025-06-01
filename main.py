@@ -87,21 +87,21 @@ def wyzeruj_sety_1(props, prop):
 
 # --------------------Zawodnik 2 ------------------------------
 def zwieksz_pkt_zawodnik_2(props, prop):
-    global pkt_zawodnik_1
-    pkt_zawodnik_1=pkt_zawodnik_1+1
-    update_text_gui(GUEST_POINTS_SOURCE, pkt_zawodnik_1)
+    global pkt_zawodnik_2
+    pkt_zawodnik_2=pkt_zawodnik_2+1
+    update_text_gui(GUEST_POINTS_SOURCE, pkt_zawodnik_2)
     
 
 def zmniejsz_pkt_zawodnik_2(props, prop):
-    global pkt_zawodnik_1
-    pkt_zawodnik_1=pkt_zawodnik_1-1
-    update_text_gui(GUEST_POINTS_SOURCE, pkt_zawodnik_1)
+    global pkt_zawodnik_2
+    pkt_zawodnik_2=pkt_zawodnik_2-1
+    update_text_gui(GUEST_POINTS_SOURCE, pkt_zawodnik_2)
     
 
 def wyzeruj_punkty_2(props, prop):
-    global pkt_zawodnik_1
-    pkt_zawodnik_1=0
-    update_text_gui(GUEST_POINTS_SOURCE, pkt_zawodnik_1)
+    global pkt_zawodnik_2
+    pkt_zawodnik_2=0
+    update_text_gui(GUEST_POINTS_SOURCE, pkt_zawodnik_2)
     
 
 def zwieksz_set_zawodnik_2(props, prop):
